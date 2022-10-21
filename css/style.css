@@ -20,10 +20,31 @@ h3 {
     text-transform: uppercase;
     color: #111;
     text-align: center;
+    font-family: Japanese;
 }
 
 P {
     margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: Ancient;
+    src: url("../fonts/Ancient-Medium.woff");
+}
+
+@font-face {
+    font-family: Academy;
+    src: url("../fonts/Academy-Regular.woff");
+}
+
+@font-face {
+    font-family: Gango;
+    src: url("../fonts/GangofThree.woff");
+}
+
+@font-face {
+    font-family: Japanese;
+    src: url("../fonts/Japanese3017.woff");
 }
 
 /*
@@ -71,4 +92,5 @@ Efeito parallax
     font-size: 25px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    font-family: Gango;
 }
