@@ -10,21 +10,24 @@ body, html {
 }
 
 .conteudo {
-    color: #777;
-    background-color: white;
+    color: #fff;
+    background-color: #111;
     text-align: center;
     padding: 50px 80px;
 }
 
 h3 {
     text-transform: uppercase;
-    color: #111;
+    color: rgb(247, 131, 7);
     text-align: center;
-    font-family: Japanese;
+    font-size: 25px;
+    font-family: Gango;
 }
 
 P {
     margin-bottom: 20px;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
 }
 
 @font-face {
@@ -62,7 +65,7 @@ Efeito parallax
 }
 
 .caixa1 {
-    background-image: url(../imagens/nuruto-time7.jpg);
+    background-image: url(../imagens/naruto.webp);    
 }
 
 .caixa2 {
@@ -86,10 +89,10 @@ Efeito parallax
 }
 
 .conteudo-titulo span.titulo {
-    color: #fff;
+    color: rgb(247, 131, 7);
     background-color: #111;
     padding: 18px;
-    font-size: 25px;
+    font-size: 40px;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-family: Gango;
